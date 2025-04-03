@@ -1,5 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
-<map>
-    <title></title>
-</map>
+AF of taking input and print the table of the number till 100.
+n=int(input("give an input:")) #take an input of any number
+def calculate_table(): #func defined
+    x=0 #veriable defined
+    while x<=100: #while loop to defined to end the loop    
+      print(f"{n}*{x}=",n*x) 
+      x+=1 # increase the variable with 1 in every step
+
+calculate_table() # call the function.
